@@ -6,7 +6,9 @@ function Footer() {
     <footer className="flex items-center w-screen bg-black h-52">
       <div className="flex flex-col items-center h-content w-full ">
         <img className="w-32 mb-8 fill-white" src={LogoWhite}></img>
-        <p className="text-white">© 2020 Kasa. All rights reserved</p>
+        <p className="text-white lg:text-xl">
+          © 2020 Kasa. All rights reserved
+        </p>
       </div>
     </footer>
   );
